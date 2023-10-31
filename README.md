@@ -13,7 +13,7 @@ This GoLang program checks the HTTP status code of a given URL. If the status co
 ## Prerequisites
 
  - GoLang installed on your system. If not, you can download it from [GoLang official website](https://go.dev/dl/).
-## Installation
+## Setup
 
 Clone the repository:
 
