@@ -56,6 +56,8 @@ func main() {
 		log.Fatal(err)
 	}
 
+	defer response.Body.Close()
+
 	// status code verification If the status code is not 200, an email will be sent to the server administrator.
 	if response.StatusCode != 200 {
 		fmt.Printf("somthing went wrong: %d\n", response.StatusCode)
